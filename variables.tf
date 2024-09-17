@@ -5,5 +5,3 @@ variable "region" {
   description = "Azure region"
   default     = "us-west-1"
 }
-
-
