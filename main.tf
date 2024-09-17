@@ -5,3 +5,7 @@ provider "azurerm" {
   features {}
 }
 
+resource "azurerm_resource_group" "tfc-rg" {
+  name     = "tfc-rg"
+  location = var.region
+}
